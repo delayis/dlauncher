@@ -1,34 +1,4 @@
 {
-  "global": [
-    "xaeros-minimap.jar",
-    "xaeros-worldmap.jar",
-    "appleskin.jar"
-  ],
-  "perPlayer": {
-    "0369b5d781cd4bc7b46f0216927b4e3f": {
-      "lastKnownUsername": "SamsaraMode",
-      "mods": [
-        "debug-tool.jar",
-        "jei-1.20.1.jar",
-        "worldedit-cui.jar"
-      ]
-    },
-    "e1a2c3d4b5f60718293a4b5c6d7e8f90": {
-      "lastKnownUsername": "OtroJugador",
-      "mods": [
-        "shulkerboxtooltip.jar",
-        "inventoryhud.jar",
-        "toolstats.jar"
-      ]
-    },
-    "9f8e7d6c5b4a39281706f5e4d3c2b1a0": {
-      "lastKnownUsername": "TercerJugador",
-      "mods": [
-        "mousetweaks.jar",
-        "controlling.jar",
-        "clienttweaks.jar",
-        "betterf3.jar"
-      ]
-    }
-  }
+  "global": [],
+  "perPlayer": {}
 }

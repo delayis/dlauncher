@@ -1,0 +1,10 @@
+{
+  "mode": "global",
+  "global": ["xaeros-minimap.jar"],
+  "perPlayer": {
+    "0369b5d781cd4bc7b46f0216927b4e3f": {
+      "lastKnownUsername": "SamsaraMode",
+      "mods": ["debug-tool.jar"]
+    }
+  }
+}

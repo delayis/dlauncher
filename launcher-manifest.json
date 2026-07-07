@@ -1,0 +1,24 @@
+{
+  "launcherName": "Crisis Launcher",
+  "gameDirName": "CrisisLauncher",
+  "minecraftVersion": "1.20.1",
+  "loader": "forge",
+  "loaderVersion": "47.4.20",
+  "portableMcVersion": "5.0.4",
+  "microsoftClientId": "86f4bf3c-db1f-4695-ab11-4026b9af8cf5",
+  "server": {
+    "host": "localhost",
+    "port": 25565
+  },
+  "mods": [
+    {
+      "name": "civilians-1.0.0.jar",
+      "url": "https://github.com/delayis/dlauncher/releases/download/v.10/civilians-1.0.0.jar"
+    },
+    {
+      "name": "crisisclient-1.0.0.jar",
+      "url": "https://github.com/delayis/dlauncher/releases/download/v.10/crisisclient-1.0.0.jar"
+    }
+
+  ]
+}

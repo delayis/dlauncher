@@ -48,19 +48,6 @@ won't apply until it's fixed.
     GitHub) to know whether it needs to re-download — no need to track a version number by hand,
     the file's content changing is enough.
 
-## ⚠️ The `"server"` field does nothing
-
-You might see (or be tempted to add) a block like this:
-
-```json
-"server": { "host": "localhost", "port": 25565 }
-```
-
-**The launcher completely ignores it.** The actual server the "Play" button connects to is
-configured inside the `crisis-client` mod itself (`ClientConfig.java`, `serverHost` /
-`serverPort` fields), not here. Changing this in the manifest has zero effect — if you need to
-change which server the game connects to, you have to edit the mod, not this file.
-
 ## How to add, update, or remove a mod
 
 - **Add**: append a new entry to `mods` with its `name` and `url`. It'll be downloaded the next
@@ -85,8 +72,6 @@ once — just hit "Play".
 - ❌ Changing `gameDirName` thinking it's purely cosmetic (see warning above).
 - ❌ Using a `url` that isn't a direct HTTPS link to the file (it needs to download the `.jar`
   itself, not an HTML page from GitHub).
-- ❌ Editing the `"server"` block expecting it to change which server the game connects to (it
-  does nothing, see warning above).
 
 ## Before you commit: validate the JSON
 

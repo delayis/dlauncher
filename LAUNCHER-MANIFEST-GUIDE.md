@@ -48,19 +48,6 @@ aplicará tu cambio hasta que lo arregles.
     saber si hay que descargar de nuevo — no hace falta llevar ningún número de versión a mano,
     basta con que el contenido del archivo cambie.
 
-## ⚠️ El campo `"server"` no hace nada
-
-Puede que veas (o te encuentres tentado a añadir) un bloque así:
-
-```json
-"server": { "host": "localhost", "port": 25565 }
-```
-
-**El launcher lo ignora por completo.** El servidor real al que conecta el botón "Play" está
-configurado dentro del propio mod `crisis-client` (`ClientConfig.java`, campos `serverHost` /
-`serverPort`), no aquí. Cambiar esto en el manifest no tiene ningún efecto — si necesitas cambiar
-a qué servidor se conecta el juego, hay que tocar el mod, no este archivo.
-
 ## Cómo añadir, actualizar o quitar un mod
 
 - **Añadir**: agrega una entrada nueva a `mods` con su `name` y `url`. Se descargará solo la
@@ -85,8 +72,6 @@ vez - dale a "Play" y ya está.
 - ❌ Cambiar `gameDirName` pensando que es cosmético (ver aviso arriba).
 - ❌ Poner una `url` que no sea HTTPS directa al archivo (debe descargar el `.jar` tal cual, no
   una página HTML de GitHub).
-- ❌ Editar el bloque `"server"` esperando que cambie a qué servidor conecta el juego (no hace
-  nada, ver aviso arriba).
 
 ## Antes de hacer commit: valida el JSON
 

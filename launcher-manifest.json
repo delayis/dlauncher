@@ -18,7 +18,17 @@
     {
       "name": "crisisearlydisplay-1.0.0.jar",
       "url": "https://github.com/delayis/dlauncher/releases/download/v.10/crisisearlydisplay-1.0.0.jar"
+    },
+    {
+      "name": "brimm-2.0.3.jar",
+      "url": "https://github.com/delayis/dlauncher/releases/download/v.10/brimm-2.0.3.jar"
+    },
+    {
+      "name": "tacz-1.20.1-1.1.7-hotfix2.jar",
+      "url": "https://github.com/delayis/dlauncher/releases/download/v.10/tacz-1.20.1-1.1.7-hotfix2.jar"
     }
 
+
+    
   ]
 }

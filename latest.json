@@ -1,11 +1,11 @@
 {
-  "version": "0.6.0",
-  "notes": "Cuarta Versión.",
+  "version": "0.7.0",
+  "notes": "Septima Versión.",
   "pub_date": "2026-07-08T02:45:00Z",
   "platforms": {
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRWUZnQzE5Ky9qREJXOE9zRG1GanJmclo1OHJOeWpuU0Z0RllsRndLVk44Rnh2TTZsN0NZa2RaNmJTTnppY1lEcHQ5Mkd5RUN6NVlJQXpGTVBXTzc1N3B0R0lIeHdYbndnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNDc1MTEwCWZpbGU6Q3Jpc2lzIExhdW5jaGVyXzAuNi4wX3g2NC1zZXR1cC5leGUKR0VBeEszM0hOSkRScm9ZVXlMbUZJb1V6WXZ0dktUcEhkcnk1amFZTFBSZEQzZ2VBcHovd0hvQjZmaFJtZ29DSFQ0aHFPYVA2dTlGclJXMkdTSXhmRGc9PQo=",
-      "url": "https://github.com/delayis/dlauncher/releases/download/v0.1/Crisis.Launcher_0.6.0_x64-setup.exe"
+      "url": "https://github.com/delayis/dlauncher/releases/download/v0.1/Crisis.Launcher_0.7.0_x64-setup.exe"
     }
   }
 }

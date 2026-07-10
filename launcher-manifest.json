@@ -26,28 +26,7 @@
     {
       "name": "tacz-1.20.1-1.1.7-hotfix2.jar",
       "url": "https://github.com/delayis/dlauncher/releases/download/v.10/tacz-1.20.1-1.1.7-hotfix2.jar"
-    },
-    {
-      "name": "geckolib-forge-1.20.1-4.8.3.jar",
-      "url": "https://github.com/delayis/dlauncher/releases/download/v.10/geckolib-forge-1.20.1-4.8.3.jar"
-    },
-    {
-      "name": "kotlinforforge-4.12.0-all.jar",
-      "url": "https://github.com/delayis/dlauncher/releases/download/v.10/kotlinforforge-4.12.0-all.jar"
-    },
-    {
-      "name": "superbwarfare-0.8.9-final-mc1.20.1-6effe4385-all.jar",
-      "url": "https://github.com/delayis/dlauncher/releases/download/v.10/superbwarfare-0.8.9-final-mc1.20.1-6effe4385-all.jar"
-    },
-    {
-      "name": "curios-forge-5.14.1+1.20.1.jar",
-      "url": "https://github.com/delayis/dlauncher/releases/download/v.10/curios-forge-5.14.1+1.20.1.jar"
     }
-    
-
-
-    
-    
     
   ]
 }

@@ -30,8 +30,11 @@
     {
       "name": "morecontainers-1.0.0.jar",
       "url": "https://github.com/delayis/dlauncher/releases/download/v.10/morecontainers-1.0.0.jar"
+    },
+    {
+      "name": "geckolib-forge-1.20.1-4.8.4.jar",
+      "url": "https://github.com/delayis/dlauncher/releases/download/v.10/geckolib-forge-1.20.1-4.8.4.jar"
     }
-
     
   ]
 }

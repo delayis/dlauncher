@@ -166,3 +166,40 @@ Ya generados en `art_templates/objectives/` (con transparencia). Ver su `README.
 5. (Opcional) NPCs dinámicos, tooltips, múltiples marcadores.
 
 Cada fase compila y es probable en juego de forma aislada.
+
+
+
+
+
+
+
+
+
+
+
+
+Respecto a la doc, voy por partes.
+1. En cuanto al estado de Complete, el icono no seguirá dibujando un radio si está completo (creo?). Solo si está Activo es mi idea, aunque no sé como se mostraría sin ser asi radio.
+2. Respecto a "Solo se muestran los objetivos desbloqueados (no spoilear los que aún no tocan)." he de decir que los Objectives de una Quest, pueden estar en Follow Order o no. Es decir, hay quests que los objetivos van en orden, y hay otras quests que no. En el primer caso, se mostraría los objetivos de 1 en 1. En el segundo caso, todos los objetivos aparecerían en el mapa.
+Es cierto que el Quest Editor tiene un grafico de nodos, donde podemos hacer que una Main Quest tenga cadena de misiones, y haya misiones opcionales. Tambien existen objetivos opcionales, así que necesitamos otro tipo de icono para los opcionales. Por cierto ,para los 3 tipos, necesitamos 1 estado mas, el hover.
+3. Para este punto, creo que: 
+Location, Collect están bien.
+Trade y Dialog, podrían basarse en la HomePos del NPC.
+Interact, es lo mas dudoso, que supongo que habrá que permitir el modo manual.
+Kill, como este objetivo admite tanto nombres de NPC's, entidades (ejemplo: minecraft:zombie, modexample:ultra_boss), y Players, habrá que gestionar la idea.
+Item, al igual que Interact, supongo que habrá que permitir el modo manual.
+
+El marcador de un Trade/Dialog por ejemplo no siguen a un NPC en tiempo real, nos vamos a basar en su HomePos. Será estatico.
+
+5. Respecto a esto, como no sé de tema de modelo de datos solo te puedo decir respecto a lo que pones "Pregunta para el equipo".
+Un objetivo Item -> 1 solo marcador
+Un objetivo Dialog -> 1 marcador por cada slot (3 en total)
+Trade -> 1 marcador por slot (4 en total)
+Un objetivo Kill -> 1 marcador por cada slot (3 en total)
+Location -> 1 marcador por cada location (3 en total)
+Interact -> Creo que tambien 1 marcador por cada location (4 en total)
+Collect -> 1 solo marcador
+
+
+
+
